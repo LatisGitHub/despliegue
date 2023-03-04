@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tarea bootstrap</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+
+    <!-- Course CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <row class="justify-content">
+            <div class="container fluid col-2 md-3">
+                <img src="img/logo.jpg" alt="" class="img-fluid">
+            </div>
+        </row>
+
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-primary p-3" style="border-radius: 5px ;">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">HOME</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">NOVEDADES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">NOTICIAS</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    FILTRACIONES </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">ÚLTIMA SEMANA</a></li>
+                                    <li><a class="dropdown-item" href="#">ÚLTIMO MES</a></li>
+                                    <li><a class="dropdown-item" href="#">ÚLTIMO AÑO</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    RECOMENDACIONES </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">TRENDING</a></li>
+                                    <li><a class="dropdown-item" href="#">SHOOTERS</a></li>
+                                    <li><a class="dropdown-item" href="#">HISTORIA</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="row mt-3 align-items-center ">
+                <div class="col-md-6">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/hfJ4Km46A-0" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-md-6 mb-6 text-right">
+                    <h3 class="text-primary">ÚLTIMAS NOVEDADES</h3>
+                    <P>Tras convertirse en una de las grandes franquicias de la familia PlayStation,
+                        la saga God of War vuelve con el nuevo God of War Ragnarok para PS5 y, con ello, la épica
+                        continuación de la historia de Kratos
+                        y su hijo Atreus por parte de Sony Santa Monica. </P>
+                </div>
+
+
+
+            </div>
+
+
+
+            <hr style="height:10px;color: blue ;">
+            <h1 class="text-center text-primary"> RECOMENDACIONES</h1>
+
+            <div class="row justify-content-center">
+                <div class="col-11">
+                    <div class="row justify-content-around rounded p-3 m-2">
+                        <div class="col-md-3 position-relative">
+                            <div class="card" style="width: 18rem;">
+                                <img src="img/juego1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title-text-center">VALORANT</h5>
+                                    <p class="card-text">Valorant es un juego de disparos en primera persona en el que
+                                        dos equipos de cinco jugadores se enfrentan entre ellos.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 position-relative">
+                            <div class="card" style="width: 18rem;">
+                                <img src="img/war.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">COD: WARZONE</h5>
+                                    <p class="card-text">Es un juego que nos permitirá caer en una isla con otros 150
+                                        jugadores para comprobar quién es el último que queda en pie.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 position-relative">
+                            <div class="card" style="width: 18rem;">
+                                <img src="img/lol.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">LEAGUE OF LEGENDS</h5>
+                                    <p class="card-text">LOL es un juego de estrategia por equipos en el que dos equipos
+                                        de cinco tratan de destruir antes la base del otro.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <hr style="height:10px;color: blue ;">
+                <h1 class="text-center text-primary"> FILTRACIONES</h1>
+                <center>
+                    <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel"
+                        style="height:50% ; width: 80%">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/re4.webp" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>RESIDENT EVIL 4</h5>
+                                    <p>Filtraciones de la nueva saga Resident Evil, nuevo remake del cuarto juego de
+                                        la
+                                        franquicia.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/re2.jpeg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>RESIDENT EVIL 2</h5>
+                                    <p>Resident Evil 2 entra en oferta de nuevo, debido al próximo remake que
+                                        saldrá.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/re3.jpg" class="d-block w-100" alt="..." width="50%" height="50%">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>RESIDENT EVIL 3</h5>
+                                    <p>Resident Evil 3 vuelve a recuperar muchos jugadores tras la filtración
+                                        anunciada.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </center>
+            </div>
+
+            <div class="container mt-5">
+
+                <nav class="navbar navbar-light bg-primary mb-4" style="border-radius: 5px ;">
+                    <div class="container-fluid  justify-content-center  ">
+                        <a class="navbar-brand text-light" href="#">CONTACTO Y SUGERENCIAS</a>
+                    </div>
+                </nav>
+
+                
+
+                <section class="row justify-content-center mb-5">
+                    <div class="col-md-5">
+                        <div class="list-group">
+                            <a class="list-group-item list-group-item-action" data-toggle="list" data-target="#contactar">Contactar</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="list" data-target="#sugerencia">Sugerencia</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="tab-content">
+                            <div class="tab-pane fade" id="contactar">
+                                <div class="row justify-content-center mb-5">
+                                    <h3 class="text-center">¡ENVIANOS TUS NOTICIAS Y OPINIONES!</h3>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Nombre:</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputPassword1" class="form-label">Email:</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputPassword1" class="form-label">Videojuego:</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+                                        <div class="mb-3 form-outline">
+                                            <label class="form-label" for="textAreaExample">Descripción:</label>
+                                            <textarea class="form-control" id="textAreaExample" rows="2"></textarea>
+                                        </div>
+                                        <div class="text-right">
+                                            <button type="submit" class="btn btn-primary mt-2">enviar</button>
+                                        </div>
+                                        </form>
+                
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="sugerencia">
+                                <form>
+                                    <h3 class="text-center">SUGERENCIA</h3>
+
+                                    <div class="form-group">
+                                        <label>Email:</label>
+                                        <input type="email" class="form-control" >
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Tu Sugerencia:</label>
+                                        <textarea class="form-control" rows="3"></textarea>
+                                    </div>
+                                    <div class="text-right">
+                                        <button type="submit" class="btn btn-primary mt-2">enviar</button>
+                                    </div>
+                                </form>
+                            </div>
+                           
+                        </div>
+        
+                    </div>
+                </section>
+
+
+
+
+
+
+
+
+
+
+                <nav class="navbar navbar-light bg-primary text-center" style="border-radius: 5px ;">
+                    <div class="col-md-6" >
+                        <h2 class="text-light ">VideoGame Entertainer Lati</h2>
+                    </div>
+                    <div class="col-md-6 ">
+                        <div class="row p-2 justify-content-center">
+                            <div class="col-2">
+                                <img src="img/twitter.png" style="width: 80%;" class="img-fluid rounded">
+                            </div>
+                            <div class="col-2">
+                                <img src="img/facebook.png" style="width: 80%;" class="img-fluid rounded">
+                            </div>
+                            <div class="col-2">
+                                <img src="img/youtube.png" style="width: 80%;" class="img-fluid rounded">
+                            </div>
+                        </div>
+
+                    </div>
+                </nav>
+
+            </div>
+
+
+
+
+        </div>
+        <script>
+            $(function () {
+                //Habilita los tooltips
+                $('[data-toggle="tooltip"]').tooltip({
+                    container: 'body'
+                });
+            });
+        </script>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
